@@ -1,7 +1,12 @@
+import { Button } from "@/components/Button";
+
 export default function Home() {
   return (
     <>
-      <h1>Hello world</h1>
+      <div className="h-screen bg-zinc-950 text-zinc-50">
+        <h1>OI</h1>
+        <Button title="ALA" />
+      </div>
     </>
   );
 }
